@@ -10,4 +10,5 @@ Kaggle에 있는 dataset으로 salary prediction
 처음 visualize했는데 직선에 가까운 line이 나왔다 ;
 
 ## Solve
-iloc함수 인자를 잘못 넘겨줘서 y - y 그래프를 그렸었다. 
+iloc함수 인자를 잘못 넘겨줘서 y - y 그래프를 그렸던 것이었다.
+iloc[:,:] / iloc[::] Column 값을 구할 때와 Row 값을 구할 때 꼼꼼하게 살피자.
